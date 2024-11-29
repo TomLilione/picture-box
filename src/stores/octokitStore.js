@@ -39,8 +39,6 @@ export const useOctokitStore = defineStore('octokitStore', {
 
     actions: {
         async setOctokit(payload,) {
-            console.clear()
-            console.log(payload.key)
             window.octokit = new Octokit({
                 auth: payload.key
             });
