@@ -42,7 +42,7 @@ quasar build
 
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
 
-# 这是一个临时项目图床工具
+# 图床项目
 
 当前端在进行项目开发时，可能并没有图床服务器支持，此时我们可以使用该工具临时将图片等静态文件存储到 git，然后将拿到的地址作为临时的外链，当我们需要将项目上线，我们就需要将图片从 git 打包下载下来，在替换项目 baseUrl 之后就可以进行部署上线了。
 
